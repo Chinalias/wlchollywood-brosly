@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '449705743000666124') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '489175220377354270').send('Welcome To **Bُubbles** Tumblr .');
+  member.guild.channels.find(r => r.id === '489175220377354270').send('**✩Welcome To HollyWood Server ✩.**');
 },3000);
 });
 var PrEfix = "$";
