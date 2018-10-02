@@ -12,7 +12,7 @@ client.on('guildMemberAdd' ,member => {
   member.guild.channels.find(r => r.id === '489175220377354270').send('**✩Welcome To HollyWood Server ✩.**');
 },3000);
 });
-var PrEfix = "$";
+var PrEfix = "-";
 client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
